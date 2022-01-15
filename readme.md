@@ -159,11 +159,3 @@ with open('testVer9.csv','w') as f:
     for i in range(10791):
         f.write(str(i+1)+","+str(classNames[pred[i]])+"\n")
 ```
-
-結果分析
-=======
-![image](https://github.com/MachineLearningNTUT/classification-NTUB110002016/blob/main/HW2/Pics/my%20submission.png)
-
-心得
-=======
-當初想說訓練時間會超乎想像，就利用anaconda去做，建立環境時遇到許多問題，但我都一一解決了，但score是在0.02左右，最後我還是放棄利用Colab去完成這次的作業，在Public Leaderboard最佳也只拿到0.85542，但這大大的變化只是因為我增加了COLOR_BGR2RGB以及將resize的值縮小而已。
