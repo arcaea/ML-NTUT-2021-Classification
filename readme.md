@@ -98,7 +98,7 @@ Xtrain,Xtest,Ytrain,Ytest=train_test_split(imgs,lbls,test_size=0.15)
 
 建立模型
 =======
-![image](https://github.com/MachineLearningNTUT/classification-NTUB110002016/blob/main/HW2/Pics/model.png)
+![image](https://github.com/arcaea/ML-NTUT-2021-Classification/blob/main/Pics/model.png)
 
 訓練模型
 =======
@@ -127,7 +127,7 @@ history=model.fit_generator(datagen.flow(Xtrain, Ytrain, batch_size=batchSize),
 
 資料視覺化
 =======
-![image](https://github.com/MachineLearningNTUT/classification-NTUB110002016/blob/main/HW2/Pics/plotTrainHistory.png)
+![image](https://github.com/arcaea/ML-NTUT-2021-Classification/blob/main/Pics/plotTrainHistory.png)
 
 使用模型預測資料
 =======
