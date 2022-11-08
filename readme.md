@@ -80,7 +80,7 @@ def readPicLabels(path,i):
             images.append(image)
             labels.append(i-1)
     return images,labels
-
+ 
 def readPic(path):
     img,labels=readPicLabels(path,i=0)########,name
     img=np.array(img,dtype=np.float32)/255
